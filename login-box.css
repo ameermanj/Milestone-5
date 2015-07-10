@@ -1,0 +1,263 @@
+#appli
+{
+margin-left:50%;
+}
+body {
+
+background: linear-gradient(#fff,#a2a2a2);
+padding-top:80px;
+}
+#set
+{
+padding: 100px 0 0 400px;
+}
+#post
+{
+padding: 100px 0 0 200px;
+}
+nav
+{
+margin:0 auto;
+height:42px;
+background-color:cornflowerblue;
+}
+nav ul
+{
+list-style:none;
+}
+nav ul li a
+{
+float:left;
+text-decoration:none;
+font-size:24px;
+color:#ffffff;
+text-align:center;
+padding:0px 40px;
+text-align:center;
+line-height:42px;
+height:42px;
+}
+#emp
+{
+float:right;
+}
+nav ul li a:hover
+{
+background-color:#a2a2a2;
+border-top:3px solid #ff2200;
+height:37px;
+}
+nav ul ul
+{
+margin-top:41px;
+margin-left:120px;
+display:none;
+position:absolute;
+background-color:cornflowerblue;
+border:5px solid #fff;
+}
+nav ul li:hover ul
+{
+display:block;
+}
+nav ul ul li
+{
+display:block;
+}
+#login-box {
+	width:333px;
+	//margin-left:20%;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(http://www.crk.com.br/Library/Images/login-box-backg.png) no-repeat left top;
+}
+#profile{
+	width:350px;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(http://www.crk.com.br/Library/Images/login-box-backg.png) no-repeat left top;
+}
+p
+{
+font-size:30;
+color:blue;
+
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 30px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:110px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+	margin-top:20px;
+}
+#signup-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+	margin-top:20px;
+}
+#name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+	margin-top:20px;
+	color:white;
+}
+#show
+{
+
+	width:80px;
+	text-align: left;
+	padding: 14px 10px 0 0;
+	margin-top:20px;
+	color:white;
+}
+#display
+{
+margin-left:20%;
+margin-top:5%;
+}
+th
+{
+	width:auto;
+	text-align: center;
+	//padding: 10px 0px 10px 0;
+	//margin-top:20px;
+	color:blue;
+	font-size:18px;
+	font-family:"Calibri", Arial;
+}
+table
+{
+margin-left:20%;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin-top:20px;
+}
+.login-box-field {
+margin-left:40%;
+margin-right:auto;
+	display:inline;
+	width:230px;
+	height:35px;
+	font-size:24px;
+	margin-top:40px;
+}
+#gender
+{
+	//float: left;
+	display:inline;
+	margin-top:15px;
+}
+
+
+.form-login {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+#button
+{
+margin-left:120px;
+margin-top:20px;
+display:inline-block;
+}
+.er
+{
+color:#AA0022;
+font-size:15px;
+}
+#error
+{
+color:#AA0022;
+font-size:15px;
+}
+input#logout   {
+//margin-top:30px;
+//margin-left:140px;
+width: 120px;
+height: 40px;
+border:2px solid rgb(0,102,153);
+background-color:#2E64FE;
+font-size:20;
+color:white;
+float:right;
+}
+#remember
+{
+margin-left:90px;
+margin-top:20px;
+display:inline-block;
+}
+
+#newid
+{
+margin-left:90px;
+margin-top:10px;
+color :white;
+}
+a
+{
+color:#FFFFFF
+}
+
+a:hover, a:focus, a:active {
+color:#F0F0F0
+}
+#submit
+{
+margin-left:120px;
+margin-top:15px;
+display:inline-block;
+}
+#login
+{
+align:center
+margin-top:15px;
+display:inline-block;
+}
+
+button
+{
+background-color:#000099;
+}
+.wrapper
+{
+border:1 px solid;
+width:75%;
+height:90%;
+margin:0 auto;
+}
+
+.del
+{
+font-size:24px;
+}

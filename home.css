@@ -1,0 +1,151 @@
+
+body {
+padding-top:40px;
+background: linear-gradient(#fff,#a2a2a2);
+}
+nav
+{
+margin:0 auto;
+height:42px;
+background-color:cornflowerblue;
+}
+nav ul
+{
+list-style:none;
+}
+nav ul li a
+{
+float:left;
+text-decoration:none;
+font-size:24px;
+color:#ffffff;
+text-align:center;
+padding:0px 40px;
+text-align:center;
+line-height:42px;
+height:42px;
+}
+nav ul li a:hover
+{
+background-color:#a2a2a2;
+border-top:3px solid #ff2200;
+height:37px;
+}
+nav ul ul
+{
+margin-top:41px;
+margin-left:120px;
+display:none;
+position:absolute;
+background-color:cornflowerblue;
+border:5px solid #fff;
+}
+nav ul li:hover ul
+{
+display:block;
+}
+nav ul ul li
+{
+display:block;
+}
+#emp
+{
+float:right;
+}
+#btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid;
+	border-color:#a0a0a0;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	margin-left:80%;
+  font-family: Arial;
+  font-size: 23px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  color:blue;
+}
+#mar
+{
+  margin-top:5%;
+  margin-left:40%;
+margin-right:auto;
+}
+#link {
+    background-color: Transparent;
+    border: 1px solid;
+	border-color:#a0a0a0;
+    cursor:pointer;
+  font-family: Arial;
+  font-size: 23px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+#btn:hover
+{
+background-color:#eee;
+}
+#link:hover
+{
+background-color:#eee;
+}
+#cover
+{
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:4%;
+box-shadow: 10px 10px 5px #888888;
+}
+#title
+{
+    margin: 15px 0 0 0;
+    padding: 0;
+    height: 36px;
+    float: left;
+}
+
+h1
+{
+	
+    height: 36px;
+    color: #285589;
+    font-size: 21px;
+    text-transform: uppercase;
+	background-color: #FFF;
+	display:inline;
+}
+#holder p
+{
+background-color:#fff;
+margin:0;
+padding-top:20px;
+padding-bottom:10px;
+}
+#text
+{
+background-color:#fff;
+padding-left:40px;
+
+}
+#holder
+{
+height:auto;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+}
+#top
+{
+width:auto;
+height:30px;
+//border:1px solid #333;
+}
+#bottom
+{
+width:auto;
+height:10px;
+//border:1px solid #333;
+}
